@@ -1,0 +1,48 @@
+access modifier method overriding
+
+there are 4 access modifier in java 
+1. public
+2. protected
+3. default
+4. private
+
+
+
+private access modifier:-
+        private component can be only access in same class.
+        this is the most secure asscess modifier in java.
+        
+default access modifire :- 
+        it also called ass pacakage access modifire 
+        
+protected acces modifier :-
+
+
+
+
+
+               
+ DCSPO:- diffrent class same package object
+ DCSPI:- diffrent class same package inheritance
+ DCDPO:- diffrent class  diffrent package object
+ DCSPI:- diffrent class diffrent package inheritance
+ 
+ 1 true
+ 0 false
+  
+        
+           DCSPO             DCSPI            DCDPO        DCSPI
+             
+private      0                 0                0             0
+
+default      1                 1                0             0
+
+protected    1                 1                0             1
+
+public       1                 1                1             1
+
+
+
+
+
+

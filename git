@@ -10,3 +10,8 @@ git push -u origin main
 git remote add origin https://github.com/LOKESHVSURYAWANSHI/java.git
 git branch -M main
 git push -u origin main
+
+
+git add .
+git commit -m "Your commit message"
+git push origin main
