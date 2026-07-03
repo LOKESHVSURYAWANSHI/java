@@ -11,6 +11,8 @@ public class First {
 		t.po();
 		t.setName("Lokesh");
 		System.out.println(t.getName());
+		t.n();
+		t.p();
 		
 	}
 }
@@ -18,16 +20,7 @@ class One{
 	private String name;
 	
 	public String getName() {
-		return this.name;
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		return this.name;	
 		
 	}
 
@@ -38,6 +31,13 @@ class One{
 	public void run() {
 		System.out.println("hiii");
 		System.out.println("class one");
+	}
+	
+	static void n(){
+		System.out.println("pop");
+	}
+	protected void p() {
+		System.out.println("n.......");
 	}
 }
 class Two extends One{

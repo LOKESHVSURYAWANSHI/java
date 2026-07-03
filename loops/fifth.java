@@ -21,7 +21,7 @@ public class fifth {
 				}
 			}
 			if(flag==true) {
-				
+				System.out.println("not prime no: "+i);
 				
 			}else {
 				++count;

@@ -1,0 +1,71 @@
+Abstraction 
+
+
+1. abstraction is a last piller of oops.
+2. abstraction is name given to the concept where its hides the implement details but are only consurn with o/p or outcome
+3. there are two mechanisum to support the abstraction 
+   a> abstraction class
+   b> interface
+4. abstract class and abstraction in java 
+   1. abstract classes are use to write the abstract method 
+   2. abstract method are only methods with only the decleration but not implimentation in short 
+   3. abstract methods are incomplete method 
+   4. abstraction classes context incomplete as well as complete methods i.e. abstract classes are use for partial abstraction abstract method with ends with
+      semicolon
+   5. abstraction classes start with abstract keyword
+   6. abstract class can content the constructor.
+   7. u cannot create the object at abstarct class. 
+   
+                                              abstraction
+                                               -      -
+                                              -        -
+                                             -          -
+                                            -            -
+                                           -              -
+                                   abstract class          interface
+
+
+
+
+                                              interfaces in java 
+          
+          1. interface start with the interface keyword (before 8)
+          2. interface method are by default public and abstract
+          3. interface are used for full abstraction( partial abstraction)
+          4. interface dose not have constructor and you cannot create the object
+
+
+                             interfaces are use to resolve the  diamond problem in java
+
+
+    resolution of diamond problem
+    
+    u can implement multiple interfaces on a single class if that interfaces are not having same default methods  (same signature) then a 
+    child class will not be concern about the ambiguity problem because both the interfaces is going to content the methods without implementation 
+    so you can really implement any method from the above interfaces
+
+
+
+   
+                             default and static methods in java 8 interfaces 
+                             
+                     
+          default :- 
+          
+           
+          
+          >    back word compatibility :> in this to make the code backward compatible java 8 introduced the feature of default and static 
+          methods in an interface so the implementing child classes will not have to worry about any add on methods 
+                       
+ 
+          
+          
+          
+          4-6-2026
+          
+          
+          
+          
+          
+          
+

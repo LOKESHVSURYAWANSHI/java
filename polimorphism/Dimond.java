@@ -1,10 +1,11 @@
+
 package polimorphism;
 
 public class Dimond {
 
 	public static void main(String[] args) {
 /** 
- * each runtime polimorphisum(dimanlic polymorphisum) is method overriding but each method overridng is not runtime and dinamic polymorphisum
+ * each runtime polimorphisum(dimanlic polymorphisum) is method overriding but each method overridIng is not runtime and dinamic polymorphisum
  *       " polimorephic object "
  *       
  *       reference pc  = object cc

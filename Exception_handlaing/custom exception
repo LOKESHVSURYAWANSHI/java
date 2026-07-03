@@ -1,0 +1,84 @@
+                                                 
+                                                 
+                                                 
+                                                  Custom exception
+                                                  
+                                                  
+                                                  
+                                  creating custome compile time runtime exception
+                                  
+    in the real word case studies you do not use the pre define java exceprtions but we create our own compiletime and runtime exceptions 
+    
+    
+    
+    
+    
+    Pipe operator(|) java7 
+         multiple catch block :-   we  can write the multiple exceprtion in one class using (first exception | second exception)  
+         
+         
+         rules:-  we can use the same level of exception
+                  
+         
+                                                   IMP
+                                                   
+      creating compile time and runtime custom exception
+      in the real world we really use the predefine java exceptions 
+      for each business requirement we need to create the custom exceptions 
+      example: insfficiantbalanceexecptions
+               usernotfoundexceptions 
+               userallredyexistexceptions
+               deliveryfaillexceptions
+               invalidecouponexceptions
+               notdeliverableexceptions
+         
+      there are tow type of custom exceptions
+      
+      1. custom compiletime exception
+      2. custom runtime exception
+      
+      
+          1. working with compile time exceptions :- we need to extend the exception class by default custom exception class
+          2. we need to extend the runtimeexception for custom runtimeexcepion class
+                 
+                
+    propagation of exception
+        
+        jvm
+        |
+        |
+        main
+        |
+        |
+        m2  method
+        |
+        |
+        m1  method
+        
+        
+        
+        throws :- it is key word use in exceptions propagation 
+                  it use at the method level 
+                  throws key can demonstrate multiple exceptions at any given time 
+                  u do not create the object of references of exception with throws keyword
+                  without throw will throws never works
+                  
+                  
+                  
+        throw :- it is use at the statement level 
+                 u can throw only one exception using throw keyword
+                 we can create the obj of exceptions with throw key word
+                 its not use in the method signature
+                 throw works independently of throws    
+
+    
+    
+    
+
+         try with resources :-  
+           
+           
+           
+           
+                 
+                 

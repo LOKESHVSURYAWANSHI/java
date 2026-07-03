@@ -1,0 +1,22 @@
+
+
+     
+     
+     functional interface :- a interface having only one abstract method
+                             we can create the multiple default and static methods in it 
+                             using @functionalinterface anotetion we can create the funtional interface class 
+                             
+                             
+                             
+      marker interface    :- there is no methods and veriables in it 
+                             
+                             
+                             
+                           use of this interface:- 
+                           
+                           
+                           5 functional interface 
+                           5 marked interface 
+                           
+                           
+                       
